@@ -4,7 +4,7 @@
 You can nesting layouts with this Plugin! 🤗 
 Read the most important Informations in this Screenshot:
 
-![Grid-Block](https://github.com/youngcut/kirby-grid-block/raw/6c95c30865bfde58e2fcb9c9b22c556b6047e90c/lib/img/screenshot.png)
+![Grid-Block](https://raw.githubusercontent.com/youngcut/kirby-grid-block/master/lib/img/screenshot.png)
 
 > This plugin is free to use and published under the MIT license. If you use this plugin for commercial purposes and you want to show your appreciation, don't hesitate to [support me with a donation](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6).
 
