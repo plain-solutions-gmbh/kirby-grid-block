@@ -34,6 +34,32 @@ Download and copy this repository to you Plugin-Folder: `/site/plugins/`
 
 Copy ```plugins/grid-block/blueprints/blocks/grid.yml``` to ```blueprints/blocks/grid.yml``` and edit it!
 
+Or customize it, right there where you need it:
+
+```
+text_content:
+    label: Content with Text
+    type: blocks
+    fieldsets:
+        grid:
+            extends: blocks/grid
+            fields:
+                grid:
+                    layouts:
+                        - "1/1"
+                    fieldsets:
+                        - heading
+                        - text
+                title:
+                    label: Title (Will shown on Website)
+                margin:
+                    type: range
+                    after: px
+                    default: "5"
+                    min: 0
+                    max: 200
+```
+
 You'il find the description for this Code in the Screenshot.
 
 ## How to customize the snippet? 
