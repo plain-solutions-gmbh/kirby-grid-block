@@ -1,6 +1,6 @@
 {
     "name": "microman/grid-blocks",
-    "description": "Use the Layouts-Field as Block",
+    "description": "Use the layouts field as block",
     "type": "kirby-plugin",
     "license": "MIT",
     "authors": [{
@@ -8,6 +8,6 @@
         "email": "mail@microman.ch"
     }],
     "require": {
-        "getkirby/composer-installer": "^1.1"
+        "getkirby/composer-installer": "^1.2"
     }
 }
