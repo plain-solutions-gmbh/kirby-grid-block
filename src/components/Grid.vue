@@ -4,7 +4,7 @@
       :value="content.grid"
       v-bind="grid"
       :label="content.title"
-      @input="update()"
+      @input="update"
     />
   </div>
 </template>
