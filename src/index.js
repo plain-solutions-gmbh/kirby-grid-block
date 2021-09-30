@@ -1,4 +1,5 @@
 import Grid from "./components/Grid.vue";
+import "./index.css";
 
 window.panel.plugin("microman/grid-blocks", {
   blocks: {
