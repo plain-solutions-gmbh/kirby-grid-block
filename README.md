@@ -1,10 +1,10 @@
 # Kirby Grid-Block
 
 ## Overview
-You can nesting layouts with this Plugin! 🤗 
+You can nesting layouts with this Plugin! 🤗
 Read the most important Informations in this Screenshot:
 
-![Grid-Block](https://raw.githubusercontent.com/youngcut/kirby-grid-block/master/lib/img/screenshot.png)
+![Grid block](./.github/screenshot-grid-block.png)
 
 > This plugin is free to use and published under the MIT license. If you use this plugin for commercial purposes and you want to show your appreciation, don't hesitate to [support me with a donation](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6).
 
@@ -20,10 +20,10 @@ Download and copy this repository to you Plugin-Folder: `/site/plugins/`
     <h2><?= $grid->title() ?></h2>
 
     /*
-        Customize the Grid-Block and use your additional fields:  
+        Customize the Grid-Block and use your additional fields:
         <?= $grid->your_additional_fields() ?>
     */
-    
+
     <?= $grid ?>
 
 
@@ -62,7 +62,7 @@ text_content:
 
 You'il find the description for this Code in the Screenshot.
 
-## How to customize the snippet? 
+## How to customize the snippet?
 
 Copy ```plugins/grid-block/snippets/blocks/grid.yml``` to ```snippets/blocks/grid.yml``` and edit it!
 
