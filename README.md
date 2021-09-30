@@ -1,72 +1,74 @@
 # Kirby Grid-Block
 
 ## Overview
-You can nesting layouts with this Plugin! 🤗 
-Read the most important Informations in this Screenshot:
 
-![Grid-Block](https://raw.githubusercontent.com/youngcut/kirby-grid-block/master/lib/img/screenshot.png)
+With this plugin you can use layouts right within any blocks field! 🤗
+
+Its most basic use-case is shown in the following screenshot:
+
+![Grid block](./.github/screenshot-grid-block.png)
 
 > This plugin is free to use and published under the MIT license. If you use this plugin for commercial purposes and you want to show your appreciation, don't hesitate to [support me with a donation](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6).
 
-
 ## Installation
-Download and copy this repository to you Plugin-Folder: `/site/plugins/`
 
-## How to use it in your frontend?
+Download and copy this repository to your plugin folder: `/site/plugins/`
 
-```
-<?php foreach ($page->mygrid()->toBlocks() as $grid) : ?>
+## Block field usage in the frontend
 
-    <h2><?= $grid->title() ?></h2>
+```html
+<?php foreach ($page->myGrid()->toBlocks() as $grid): ?>
+  <h2><?= $grid->title() ?></h2>
 
-    /*
-        Customize the Grid-Block and use your additional fields:  
-        <?= $grid->your_additional_fields() ?>
-    */
-    
-    <?= $grid ?>
+  <!--
+  Customize the Grid-Block and use any custom fields:
+  <?= $grid->yourCustomFields() ?>
+  -->
 
-
+  <?= $grid ?>
 <?php endforeach ?>
 ```
 
-## How to customize the grid-block?
+## Customization
 
-Copy ```plugins/grid-block/blueprints/blocks/grid.yml``` to ```blueprints/blocks/grid.yml``` and edit it!
+### Grid block
 
-Or customize it, right there where you need it:
+Simply copy the main `grid.yml` from `site/plugins/grid-block/blueprints/blocks` to your project's `site/blueprints/blocks` folder. The latter one will be used by Kirby instead of the one provided by the plugin.
 
-```
-text_content:
-    label: Content with Text
-    type: blocks
-    fieldsets:
+Of course, you can customize it to your needs:
+
+```yml
+textContent:
+  label: Content with Text
+  type: blocks
+  fieldsets:
+    grid:
+      extends: blocks/grid
+      fields:
         grid:
-            extends: blocks/grid
-            fields:
-                grid:
-                    layouts:
-                        - "1/1"
-                    fieldsets:
-                        - heading
-                        - text
-                title:
-                    label: Title (Will shown on Website)
-                margin:
-                    type: range
-                    after: px
-                    default: "5"
-                    min: 0
-                    max: 200
+          layouts:
+            - "1/1"
+          fieldsets:
+            - heading
+            - text
+        title:
+          label: Title
+        margin:
+          type: range
+          after: px
+          default: "5"
+          min: 0
+          max: 200
 ```
 
-You'il find the description for this Code in the Screenshot.
+You'll find the description for this example blueprint in the screenshot above.
 
-## How to customize the snippet? 
+### Snippet
 
-Copy ```plugins/grid-block/snippets/blocks/grid.yml``` to ```snippets/blocks/grid.yml``` and edit it!
+Copy the block snippet `grid.php` from `site/plugins/grid-block/snippets/blocks` to your project's `site/snippets/blocks` folder. The latter one will be used by Kirby instead of the one provided by the plugin.
 
 ## Licence
+
 MIT
 
 > [Buy me a](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6) ☕️
