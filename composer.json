@@ -1,5 +1,5 @@
 {
-    "name": "microman/grid-blocks",
+    "name": "microman/kirby-grid-blocks",
     "description": "Use the layouts field as block",
     "type": "kirby-plugin",
     "license": "MIT",

@@ -14,6 +14,10 @@ Its most basic use-case is shown in the following screenshot:
 
 Download and copy this repository to your plugin folder: `/site/plugins/`
 
+**Composer**
+
+`composer required microman/kirby-grid-blocks`
+
 ## Block field usage in the frontend
 
 ```html
