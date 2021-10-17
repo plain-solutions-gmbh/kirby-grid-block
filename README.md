@@ -8,7 +8,7 @@ Its most basic use-case is shown in the following screenshot:
 
 ![Grid block](./.github/screenshot-grid-block.png)
 
-> This plugin is free to use and published under the MIT license. If you use this plugin for commercial purposes and you want to show your appreciation, don't hesitate to [support me with a donation](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6).
+> This plugin is free to use and published under the MIT license. If you use this plugin for commercial purposes and you want to show your appreciation, don't hesitate to [support me with a donation](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6) or purchasing your license(s) through [my affiliate link](https://a.paddle.com/v2/click/1129/136529?link=1170).
 
 ## Installation
 
@@ -75,4 +75,6 @@ Copy the block snippet `grid.php` from `site/plugins/grid-block/snippets/blocks`
 
 MIT
 
-> [Buy me a](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6) ☕️
+> [Buy me a ☕️](https://www.paypal.com/donate?hosted_button_id=LBCLZVHS4K2R6) 
+
+> [Get a Kirby-license(s) 💳](https://a.paddle.com/v2/click/1129/136529?link=1170) 
