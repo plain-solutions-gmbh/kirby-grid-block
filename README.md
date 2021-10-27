@@ -16,7 +16,7 @@ Download and copy this repository to your plugin folder: `/site/plugins/`
 
 **Composer**
 
-`composer required microman/kirby-grid-blocks`
+`composer require microman/kirby-grid-blocks`
 
 ## Block field usage in the frontend
 
