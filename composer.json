@@ -3,6 +3,7 @@
     "description": "Use the layouts field as block",
     "type": "kirby-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [{
         "name": "Roman Gsponer",
         "email": "mail@microman.ch"
